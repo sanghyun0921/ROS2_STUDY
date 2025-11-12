@@ -1,0 +1,32 @@
+[0.756s] Invoking command in '/home/shcho/ros2_study/src/my_first_package': PYTHONPATH=/home/shcho/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_study/build/my_first_package/build install --record /home/shcho/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.969s] running egg_info
+[0.969s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.972s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.972s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.972s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.972s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.973s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.975s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.976s] running build
+[0.976s] running build_py
+[0.976s] copying my_first_package/dist_turtle_action_server.py -> /home/shcho/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.976s] running install
+[0.976s] running install_lib
+[0.977s] copying /home/shcho/ros2_study/build/my_first_package/build/lib/my_first_package/dist_turtle_action_server.py -> /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.977s] byte-compiling /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/dist_turtle_action_server.py to dist_turtle_action_server.cpython-310.pyc
+[0.977s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (dist_turtle_action_server.py, line 123)
+[0.977s] running install_data
+[0.977s] running install_egg_info
+[0.985s] removing '/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.986s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.986s] running install_scripts
+[1.000s] Installing dist_turtle_action_server script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.001s] Installing my_custom_publisher script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.001s] Installing my_first_node script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.002s] Installing my_multi_thread script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.002s] Installing my_publisher script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.002s] Installing my_service_server script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.002s] Installing my_subscriber script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.002s] Installing turtle_cmd_and_pose script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[1.004s] writing list of installed files to '/home/shcho/ros2_study/build/my_first_package/install.log'
+[1.029s] Invoked command in '/home/shcho/ros2_study/src/my_first_package' returned '0': PYTHONPATH=/home/shcho/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_study/build/my_first_package/build install --record /home/shcho/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data

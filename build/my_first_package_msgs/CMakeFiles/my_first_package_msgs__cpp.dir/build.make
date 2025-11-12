@@ -66,45 +66,104 @@ include CMakeFiles/my_first_package_msgs__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/my_first_package_msgs__cpp.dir/progress.make
 
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/dist_turtle.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp
 CMakeFiles/my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: rosidl_adapter/my_first_package_msgs/srv/MultiSpawn.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: rosidl_adapter/my_first_package_msgs/msg/CmdAndPoseVel.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: rosidl_adapter/my_first_package_msgs/srv/MultiSpawn.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: rosidl_adapter/my_first_package_msgs/action/DistTurtle.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shcho/ros2_study/build/my_first_package_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/shcho/ros2_study/build/my_first_package_msgs/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp: rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
+rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
 
-rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp: rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
+rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
 
-rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp: rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
+rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp
 
-rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp: rosidl_generator_cpp/my_first_package_msgs/srv/multi_spawn.hpp
+rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__type_support.hpp
 
+rosidl_generator_cpp/my_first_package_msgs/action/dist_turtle.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/action/dist_turtle.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__builder.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__struct.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__traits.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+
+rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp
+
 my_first_package_msgs__cpp: CMakeFiles/my_first_package_msgs__cpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__builder.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__struct.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__traits.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/detail/dist_turtle__type_support.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/action/dist_turtle.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/cmd_and_pose_vel.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__builder.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__struct.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__traits.hpp
+my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/msg/detail/cmd_and_pose_vel__type_support.hpp
 my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__builder.hpp
 my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__struct.hpp
 my_first_package_msgs__cpp: rosidl_generator_cpp/my_first_package_msgs/srv/detail/multi_spawn__traits.hpp

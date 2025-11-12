@@ -1,0 +1,34 @@
+[0.642s] Invoking command in '/home/shcho/ros2_study/src/my_first_package': PYTHONPATH=/home/shcho/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_study/build/my_first_package/build install --record /home/shcho/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.830s] running egg_info
+[0.831s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.832s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.832s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.835s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.835s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.836s] running build_py
+[0.836s] copying my_first_package/my_service_server.py -> /home/shcho/ros2_study/build/my_first_package/build/lib/my_first_package
+[0.836s] running install
+[0.839s] running install_lib
+[0.839s] copying /home/shcho/ros2_study/build/my_first_package/build/lib/my_first_package/my_service_server.py -> /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.840s] byte-compiling /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_service_server.py to my_service_server.cpython-310.pyc
+[0.840s] running install_data
+[0.840s]   File "/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_service_server.py", line 5
+[0.840s]     from my_first_package _msgs.srv import MultiSpawn
+[0.840s]                           ^^^^^
+[0.840s] SyntaxError: invalid syntax
+[0.840s] 
+[0.853s] running install_egg_info
+[0.853s] removing '/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.853s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.853s] running install_scripts
+[0.868s] Installing my_custom_publisher script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.868s] Installing my_first_node script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.868s] Installing my_publisher script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.868s] Installing my_service_server script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.868s] Installing my_subscriber script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.869s] Installing turtle_cmd_and_pose script to /home/shcho/ros2_study/install/my_first_package/lib/my_first_package
+[0.869s] writing list of installed files to '/home/shcho/ros2_study/build/my_first_package/install.log'
+[0.886s] Invoked command in '/home/shcho/ros2_study/src/my_first_package' returned '0': PYTHONPATH=/home/shcho/ros2_study/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shcho/ros2_study/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/shcho/ros2_study/build/my_first_package/build install --record /home/shcho/ros2_study/build/my_first_package/install.log --single-version-externally-managed install_data

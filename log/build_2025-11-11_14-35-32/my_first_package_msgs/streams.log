@@ -1,0 +1,8 @@
+[0.207s] Invoking command in '/home/shcho/ros2_study/build/my_first_package_msgs': CMAKE_PREFIX_PATH=/home/shcho/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/shcho/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/shcho/ros2_study/install/my_first_package_msgs
+[0.315s] -- Configuring incomplete, errors occurred!
+[0.355s] [31mCMake Error at CMakeLists.txt:17:
+[0.355s]   Parse error.  Expected a command name, got quoted argument with text
+[0.355s]   "msg/CmdAndPoseVel.msg".
+[0.355s] 
+[0.355s] [0m
+[0.355s] Invoked command in '/home/shcho/ros2_study/build/my_first_package_msgs' returned '1': CMAKE_PREFIX_PATH=/home/shcho/ros2_study/install/my_first_package:/opt/ros/humble /usr/bin/cmake /home/shcho/ros2_study/src/my_first_package_msgs -DCMAKE_INSTALL_PREFIX=/home/shcho/ros2_study/install/my_first_package_msgs
